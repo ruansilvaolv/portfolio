@@ -1,258 +1,329 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Ruan Oliveira" />
-    <meta
-      name="description"
-      content="Potifólio do desenvolvedor Ruan Silva de Oliveira"
-    />
-    <meta
-      name="keywords"
-      content="portfolio, html, css, javascript, frontend, desenvolvimento, dev"
-    />
-    <title>Portfolio Ruan Oliveira</title>
-    <link
-      rel="shortcut icon"
-      href="./assets/images/favicon.ico"
-      type="image/x-icon"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="author" content="Ruan Oliveira" />
+      <meta
+         name="description"
+         content="Potifólio do desenvolvedor Ruan Silva de Oliveira"
+      />
+      <meta
+         name="keywords"
+         content="portfolio, html, css, javascript, frontend, desenvolvimento, dev"
+      />
+      <title>Portfolio Ruan Oliveira</title>
+      <link
+         rel="shortcut icon"
+         href="./assets/images/favicon.ico"
+         type="image/x-icon"
+      />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <link rel="stylesheet" href="./css/style.css" />
+      <link rel="stylesheet" href="./css/style.css" />
 
-    <link rel="stylesheet" href="./css/menu-mobile.css">
-  </head>
-  <body>
-    <header>
-      <nav data-menu="suave">
-        <p>
-          <a href="#home" class="logo"
-            >&lsaquo;ruan oliveira/&rsaquo;</a
-          >
-        </p>
-        <button data-menu="button" aria-controls="menu"></button>
-
-        <ul data-menu="list" id="menu">
-          <a href="#home">
-            <li>Home</li>
-          </a>
-          <a href="#about">
-            <li>Sobre</li>
-          </a>
-          <a href="#portfolio">
-            <li>Projetos</li>
-          </a>
-        </ul>
-      </nav>
-    </header>
-
-    <main>
-      <section class="principal" id="home">
-        <div class="principal-presentation">
-          <h1>Olá,</h1>
-          <h1>meu nome é</h1>
-          <span class="principal-sentence"></span>
-          <span class="principal-input-cursor"></span>
-          <h1>Desenvolvedor Front-End</h1>
-          <div class="btn-principal">
-            <a href="https://linkedin.com/in/ruansilvaolv" target="_blank">
-              <div class="btn-principal-linkedin">
-                <img src="./assets/images/linkedin.png" alt="" />
-                <p>LinkedIn</p>
-              </div>
-            </a>
-
-            <a href="https://github.com/ruansilvaolv" target="_blank">
-              <div class="btn-principal-github">
-                <img src="./assets/images/github.png" alt="" />
-                <p>Github</p>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="principal-img">
-          <img
-            src="./assets/images/ilustracao-programadores.svg"
-            alt="Programadores construindo um site"
-          />
-        </div>
-
-        <div class="scroll" data-menu="suave">
-          <a href="#about"
-            ><p>scroll down</p>
-            <img
-              src="./assets/images/scroll.png"
-              alt="Seta apontando para baixo"
-          /></a>
-        </div>
-      </section>
-
-      <section class="about" id="about" data-anime="js-scroll">
-        <div class="about-img">
-          <img
-            src="./assets/images/profile-pic.png"
-            alt="Foto de Ruan Oliveira"
-          />
-        </div>
-
-        <div class="about-desc">
-          <h1>Sobre mim</h1>
-          <p>
-            Opa! Sou estudante do segundo ano do Ensino Médio e me dedicando ao
-            estudo para me tornar Dev. FullStack. Comecei a estudar seriamente
-            neste ano tendo como incentivo o curso gratuito disponibilizado pela
-            StartSe, o Tech Academy.
-          </p>
-
-          <div class="about-desc-btn">
-            <a href="./assets/curriculo-ruan-oliveira.pdf" download="">
-              <div class="btn-curriculo">
-                <img src="./assets/images/curriculo.png" alt="" />
-                <p>Currículo</p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </section>
-      
-      <section class="portfolio" id="portfolio" data-anime="js-scroll">
-        <h1>Portifólio</h1>
-        <div class="portfolio-wrapper">
-          <section class="project-item">
-            <a href="https://ruansilvaolv.github.io/doctorcare/" target="_blank">
-              <img src="./assets/images/print-site-doctor-care.png" alt="Projeto DoctorCare" class="project-img">
-            </a>
-
-            <h2>DoctorCare</h2>
+      <link rel="stylesheet" href="./css/menu-mobile.css" />
+   </head>
+   <body>
+      <header>
+         <nav data-menu="suave">
             <p>
-              Este site foi construido a partir do desafio NLW Return da Rocketseat utilizando HTML5, CSS3 e JavaScript. Está totalmente responsivo!
+               <a href="#home" class="logo">&lsaquo;ruan oliveira/&rsaquo;</a>
             </p>
+            <button data-menu="button" aria-controls="menu"></button>
 
-            <span>Tecnologias usadas: HTML5, CSS, JavaScript</span>
+            <ul data-menu="list" id="menu">
+               <a href="#home">
+                  <li>Home</li>
+               </a>
+               <a href="#about">
+                  <li>Sobre</li>
+               </a>
+               <a href="#portfolio">
+                  <li>Projetos</li>
+               </a>
+            </ul>
+         </nav>
+      </header>
 
-            <a href="https://ruansilvaolv.github.io/doctorcare/" target="_blank">
-              <div class="project-btn">
-                <img src="./assets/images/link.png" alt="">
-                Visualizar
-              </div>
-            </a>
-          </section>
+      <main>
+         <section class="principal" id="home">
+            <div class="principal-presentation">
+               <h1>Olá,</h1>
+               <h1>meu nome é</h1>
+               <span class="principal-sentence"></span>
+               <span class="principal-input-cursor"></span>
+               <h1>Desenvolvedor Front-End</h1>
+               <div class="btn-principal">
+                  <a
+                     href="https://linkedin.com/in/ruansilvaolv"
+                     target="_blank"
+                  >
+                     <div class="btn-principal-linkedin">
+                        <img src="./assets/images/linkedin.png" alt="" />
+                        <p>LinkedIn</p>
+                     </div>
+                  </a>
 
-          <section class="project-item">
-            <a href="https://ruansilvaolv.github.io/nft-card/" target="_blank">
-              <img src="./assets/images/screenshot-nft-card-desktop.png" alt="Projeto NFT Card" class="project-img">
-            </a>
+                  <a href="https://github.com/ruansilvaolv" target="_blank">
+                     <div class="btn-principal-github">
+                        <img src="./assets/images/github.png" alt="" />
+                        <p>Github</p>
+                     </div>
+                  </a>
+               </div>
+            </div>
+            <div class="principal-img">
+               <img
+                  src="./assets/images/ilustracao-programadores.svg"
+                  alt="Programadores construindo um site"
+               />
+            </div>
 
-            <h2>NFT Card</h2>
-            <p>
-              Este site foi construido a partir do desafio proposto pela
-              FrontendMentor utilizando HTML5 e CSS3. O projeto está
-              responsivo!
-            </p>
+            <div class="scroll" data-menu="suave">
+               <a href="#about"
+                  ><p>scroll down</p>
+                  <img
+                     src="./assets/images/scroll.png"
+                     alt="Seta apontando para baixo"
+               /></a>
+            </div>
+         </section>
 
-            <span>Tecnologias usadas: HTML5, CSS</span>
+         <section class="about" id="about" data-anime="js-scroll">
+            <div class="about-img">
+               <img
+                  src="./assets/images/profile-pic.png"
+                  alt="Foto de Ruan Oliveira"
+               />
+            </div>
 
-            <a href="https://ruansilvaolv.github.io/nft-card/" target="_blank">
-              <div class="project-btn">
-                <img src="./assets/images/link.png" alt="">
-                Visualizar
-              </div>
-            </a>
-          </section>
+            <div class="about-desc">
+               <h1>Sobre mim</h1>
+               <p>
+                  Opa! Sou o Ruan Oliveira, sou desenvolvedor e estou cursando o
+                  Curso Superior de Tecnologia em Jogos Digitais, na Fatec de
+                  Carapicuíba, SP! Estou aprimorando meus conhecimentos a fim de
+                  me tornar um Desenvolvedor FullStack cada vez mais qualificado. Abaixo você encontra meu currículo atualizado para mais informações sobre mim! ;)
+               </p>
 
-          <section class="project-item">
-            <a href="https://ruansilvaolv.github.io/product-card/" target="_blank">
-              <img src="./assets/images/screenshot-product-card-desktop.png" alt="Projeto Product Card" class="project-img">
-            </a>
+               <div class="about-desc-btn">
+                  <a href="./assets/curriculo-ruan-oliveira.pdf" download="">
+                     <div class="btn-curriculo">
+                        <img src="./assets/images/curriculo.png" alt="" />
+                        <p>Currículo</p>
+                     </div>
+                  </a>
+               </div>
+            </div>
+         </section>
 
-            <h2>Product Card</h2>
-            <p>
-              Este site foi construido a partir do desafio proposto pela FrontendMentor utilizando HTML5 e CSS3. O projeto está
-              responsivo!
-            </p>
+         <section class="portfolio" id="portfolio" data-anime="js-scroll">
+            <h1>Portifólio</h1>
+            <div class="portfolio-wrapper">
+               <section class="project-item">
+                  <a
+                     href="https://ruansilvaolv.github.io/doctorcare/"
+                     target="_blank"
+                  >
+                     <img
+                        src="./assets/images/print-site-doctor-care.png"
+                        alt="Projeto DoctorCare"
+                        class="project-img"
+                     />
+                  </a>
 
-            <span>Tecnologias usadas: HTML5, CSS</span>
+                  <h2>DoctorCare</h2>
+                  <p>
+                     Este site foi construido a partir do desafio NLW Return da
+                     Rocketseat utilizando HTML5, CSS3 e JavaScript. Está
+                     totalmente responsivo!
+                  </p>
 
-            <a href="https://ruansilvaolv.github.io/product-card/" target="_blank">
-              <div class="project-btn">
-                <img src="./assets/images/link.png" alt="">
-                Visualizar
-              </div>
-            </a>
-          </section>
+                  <span>Tecnologias usadas: HTML5, CSS, JavaScript</span>
 
-          <section class="project-item">
-            <a href="https://ruansilvaolv.github.io/game-super-mario/" target="_blank">
-              <img src="./assets/images/screenshot-game-super-mario-desktop.png" alt="Projeto Super Mario" class="project-img">
-            </a>
+                  <a
+                     href="https://ruansilvaolv.github.io/doctorcare/"
+                     target="_blank"
+                  >
+                     <div class="project-btn">
+                        <img src="./assets/images/link.png" alt="" />
+                        Visualizar
+                     </div>
+                  </a>
+               </section>
 
-            <h2>Super Mario</h2>
-            <p>
-              Este projeto foi proposto pela StartSe para praticar o JavaScript e foram utilizadas as tecnologias HTML5, CSS3 e JS. Está totalmente responsivo!
-            </p>
+               <section class="project-item">
+                  <a
+                     href="https://ruansilvaolv.github.io/nft-card/"
+                     target="_blank"
+                  >
+                     <img
+                        src="./assets/images/screenshot-nft-card-desktop.png"
+                        alt="Projeto NFT Card"
+                        class="project-img"
+                     />
+                  </a>
 
-            <span>Tecnologias usadas: HTML5, CSS, JavaScript</span>
+                  <h2>NFT Card</h2>
+                  <p>
+                     Este site foi construido a partir do desafio proposto pela
+                     FrontendMentor utilizando HTML5 e CSS3. O projeto está
+                     responsivo!
+                  </p>
 
-            <a href="https://ruansilvaolv.github.io/game-super-mario/" target="_blank">
-              <div class="project-btn">
-                <img src="./assets/images/link.png" alt="">
-                Visualizar
-              </div>
-            </a>
-          </section>
+                  <span>Tecnologias usadas: HTML5, CSS</span>
 
-          <section class="project-item">
-            <a href="https://ruansilvaolv.github.io/mp_plant/" target="_blank">
-              <img src="./assets/images/screenshot-mp-plant-desktop.png" alt="Projeto Mp Plant" class="project-img">
-            </a>
+                  <a
+                     href="https://ruansilvaolv.github.io/nft-card/"
+                     target="_blank"
+                  >
+                     <div class="project-btn">
+                        <img src="./assets/images/link.png" alt="" />
+                        Visualizar
+                     </div>
+                  </a>
+               </section>
 
-            <h2>Mp Plant</h2>
-            <p>
-              Este projeto foi construido em conjunto como desafio promovido por alunos da StartSe. Foram utilizadas as tecnologias HTML5, CSS3 e JavaScript. Está totalmente responsivo!
-            </p>
+               <section class="project-item">
+                  <a
+                     href="https://ruansilvaolv.github.io/product-card/"
+                     target="_blank"
+                  >
+                     <img
+                        src="./assets/images/screenshot-product-card-desktop.png"
+                        alt="Projeto Product Card"
+                        class="project-img"
+                     />
+                  </a>
 
-            <span>Tecnologias usadas: HTML5, CSS, JavaScript</span>
+                  <h2>Product Card</h2>
+                  <p>
+                     Este site foi construido a partir do desafio proposto pela
+                     FrontendMentor utilizando HTML5 e CSS3. O projeto está
+                     responsivo!
+                  </p>
 
-            <a href="https://mp-plant.vercel.app" target="_blank">
-              <div class="project-btn">
-                <img src="./assets/images/link.png" alt="">
-                Visualizar
-              </div>
-            </a>
-          </section>
+                  <span>Tecnologias usadas: HTML5, CSS</span>
 
-          <section class="project-item">
-            <a href="https://ruansilvaolv.github.io/pokedex/" target="_blank">
-              <img src="./assets/images/screenshot-pokedex-desktop.png" alt="Projeto Pokédex" class="project-img">
-            </a>
+                  <a
+                     href="https://ruansilvaolv.github.io/product-card/"
+                     target="_blank"
+                  >
+                     <div class="project-btn">
+                        <img src="./assets/images/link.png" alt="" />
+                        Visualizar
+                     </div>
+                  </a>
+               </section>
 
-            <h2>Pokédex</h2>
-            <p>
-              Este projeto foi construido a partir da proposta do Manual do Dev. Foram utilizadas as tecnologias HTML5, CSS3 e JavaScript. Está responsivo!
-            </p>
+               <section class="project-item">
+                  <a
+                     href="https://ruansilvaolv.github.io/game-super-mario/"
+                     target="_blank"
+                  >
+                     <img
+                        src="./assets/images/screenshot-game-super-mario-desktop.png"
+                        alt="Projeto Super Mario"
+                        class="project-img"
+                     />
+                  </a>
 
-            <span>Tecnologias usadas: HTML5, CSS, JavaScript</span>
+                  <h2>Super Mario</h2>
+                  <p>
+                     Este projeto foi proposto pela StartSe para praticar o
+                     JavaScript e foram utilizadas as tecnologias HTML5, CSS3 e
+                     JS. Está totalmente responsivo!
+                  </p>
 
-            <a href="https://ruansilvaolv.github.io/pokedex/" target="_blank">
-              <div class="project-btn">
-                <img src="./assets/images/link.png" alt="">
-                Visualizar
-              </div>
-            </a>
-          </section>
-        </div>
-      </section>
-    </main>
+                  <span>Tecnologias usadas: HTML5, CSS, JavaScript</span>
 
-    <footer>
-      <p>Desenvolvido por</p><a href="https://linkedin.com/in/ruansilvaolv" target="_blank"> Ruan Oliveira</a>
-    </footer>
+                  <a
+                     href="https://ruansilvaolv.github.io/game-super-mario/"
+                     target="_blank"
+                  >
+                     <div class="project-btn">
+                        <img src="./assets/images/link.png" alt="" />
+                        Visualizar
+                     </div>
+                  </a>
+               </section>
 
-    <script src="./js/script.js" type="module"></script>
-    <script src="./js/modules/vanilla-tilt.min.js"></script>
-  </body>
+               <section class="project-item">
+                  <a
+                     href="https://ruansilvaolv.github.io/mp_plant/"
+                     target="_blank"
+                  >
+                     <img
+                        src="./assets/images/screenshot-mp-plant-desktop.png"
+                        alt="Projeto Mp Plant"
+                        class="project-img"
+                     />
+                  </a>
+
+                  <h2>Mp Plant</h2>
+                  <p>
+                     Este projeto foi construido em conjunto como desafio
+                     promovido por alunos da StartSe. Foram utilizadas as
+                     tecnologias HTML5, CSS3 e JavaScript. Está totalmente
+                     responsivo!
+                  </p>
+
+                  <span>Tecnologias usadas: HTML5, CSS, JavaScript</span>
+
+                  <a href="https://mp-plant.vercel.app" target="_blank">
+                     <div class="project-btn">
+                        <img src="./assets/images/link.png" alt="" />
+                        Visualizar
+                     </div>
+                  </a>
+               </section>
+
+               <section class="project-item">
+                  <a
+                     href="https://ruansilvaolv.github.io/pokedex/"
+                     target="_blank"
+                  >
+                     <img
+                        src="./assets/images/screenshot-pokedex-desktop.png"
+                        alt="Projeto Pokédex"
+                        class="project-img"
+                     />
+                  </a>
+
+                  <h2>Pokédex</h2>
+                  <p>
+                     Este projeto foi construido a partir da proposta do Manual
+                     do Dev. Foram utilizadas as tecnologias HTML5, CSS3 e
+                     JavaScript. Está responsivo!
+                  </p>
+
+                  <span>Tecnologias usadas: HTML5, CSS, JavaScript</span>
+
+                  <a
+                     href="https://ruansilvaolv.github.io/pokedex/"
+                     target="_blank"
+                  >
+                     <div class="project-btn">
+                        <img src="./assets/images/link.png" alt="" />
+                        Visualizar
+                     </div>
+                  </a>
+               </section>
+            </div>
+         </section>
+      </main>
+
+      <footer>
+         <p>Desenvolvido por</p>
+         <a href="https://linkedin.com/in/ruansilvaolv" target="_blank">
+            Ruan Oliveira</a
+         >
+      </footer>
+
+      <script src="./js/script.js" type="module"></script>
+      <script src="./js/modules/vanilla-tilt.min.js"></script>
+   </body>
 </html>
